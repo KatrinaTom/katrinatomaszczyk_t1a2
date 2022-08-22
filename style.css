@@ -6,20 +6,16 @@
     padding: 0%;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
 
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    display: flex;
     flex-direction: column;
     color: #5D6063;
     background: #F9F9F9;  
 }
 
+/* layout of sections with a shadow */
 
 .shadow {
     padding: 30px 0;
@@ -28,80 +24,150 @@ body {
 
 /* navigation bar  */
 
-header {
+nav {
     display: flex;
-    justify-content: space-between; 
     background: #D7E9F7;
     color: #0078AA;
+    
 }
 
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    padding-right: 3vh;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
 }
 
 .logo {
     margin-left: 2rem;
 }
 
-nav a:link {
-    text-decoration: none !important;
-    margin: 0 0.5rem;
-    color: #0078AA;
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
- img {
-    width: 100px;
-    border-radius: 50%;
-    Padding-top: 10px
- }
+/* hero Section - reuseable headings */
 
- #about {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
- }
-
- .main_title {
+header, h4, p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
- }
-
- section h1 {
-    display: flex;
-    justify-content: center;
-    padding-top: 4.5rem;
- }
-
-.heading_title {
-    display: flex;
-    justify-content: center;
-    font-size: 3rem; 
+    text-align: center;
 }
 
-div h4 {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 4.5rem;
+    padding-bottom: 20px;
+}
+
+h4 {
     font-size: 2rem;
 }
 
 #quote {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 20px;
+    font-style: italic;
 }
 
-/* Main Section  */
+/* main Section  */
 
-main section {
+ main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+ /* about Me section */
+
+ article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 0 2rem;
+ }
+
+h2 {
+    font-size: 2rem; 
+    margin: 0 0 1rem;
+ }
+
+ img {
+    width: 200px;
+    border-radius: 50%;
+    border-color: #0078AA;
+    border-style: solid;
+    margin-bottom: 10px;
+ } 
+
+ 
+ /* experience section */
+
+ h3 {
+    margin: 5px;
+ }
+
+ p, h3 {
+    padding: 10px;
+ }
+
+ article .professional i {
+    margin: 5px;
+    color:#0078AA;
+ }
+
+ /* project section */
+ 
+ .project1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0078AA;
+ }
+
+ .project1-1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0078AA;
+ }
+
+ .project2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0078AA;
+ }
+
+ .project2-2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0078AA;
+ }
+
+ .project3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0078AA;
+ }
+
+ .project3-3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0078AA;
+ }
+
+
+
+
+ 
+
+
 
 
 
@@ -130,3 +196,50 @@ footer p {
     margin-bottom: 12px
     }
 }
+
+/* Blog Page */
+
+#blogMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adventure-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* blog buttons */
+
+.btn {
+    margin: 10px;
+    background: #0078AA;
+    background-image: -webkit-linear-gradient(top, #0078AA, #006aaa);
+    background-image: -moz-linear-gradient(top, #0078AA, #006aaa);
+    background-image: -ms-linear-gradient(top, #0078AA, #006aaa);
+    background-image: -o-linear-gradient(top, #0078AA, #006aaa);
+    background-image: linear-gradient(to bottom, #0078AA, #006aaa);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    border: solid #0078AA 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
