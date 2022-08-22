@@ -130,33 +130,64 @@ h2 {
  .project1 {
     width: 100px;
     height: 100px;
-    border: 1px solid #0078AA;
+    background: #E2F0CB;
+    transition: 2s;
  }
 
- .project1-1 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #0078AA;
- }
+.project1:hover {
+    width: 200px;
+    height: 200px;
+    background: #C7CEEA;
+}
+
+ /* Project 2 Keyframing*/
 
  .project2 {
     width: 100px;
     height: 100px;
-    border: 1px solid #0078AA;
+    background: #C7CEEA;
  }
 
- .project2-2 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #0078AA;
+ .project2:hover {
+    animation-name: colorful-box;
+    animation-duration: 2s;
  }
+
+ @keyframes colorful-box {
+    0% {
+        background: ;
+    }
+    20% {
+        background: #B5EaD7;
+    }
+    40% {
+        background: #E2F0CB;
+    }
+    60% {
+        background:#FFDAC1;
+    }
+
+    80% {
+        background: #FFB7B2;
+    }
+    100% {
+        background: #ff9AA2;
+    }
+}
+
+/* project 3 animation */
 
  .project3 {
-  
+    width: 100px;
+    height: 100px;
+    background: #B5EAD7;
+    transition: 2s;
+    margin: 5px;
  }
 
- .project3-3 {
-
+ .project3:hover {
+    transform: translateX(-100px) rotate(15deg);
+    background: #98A9D7;
  }
 
 /* Footer Section */
@@ -212,6 +243,18 @@ footer p {
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
   }
+
+  /* styling */
+
+  a:hover {
+    font-size: 1.5rem;
+    color: #006699;
+  }
+
+  a:visited {
+    color: #0078AA;
+  }
+
 
   /* Media Breakoints */
 
