@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    <main>
     <header >
         <nav class="shadow sticky">
             <i class="fa-solid fa-laptop-code logo"></i>
@@ -17,18 +18,28 @@
             <a href="blog.html">Blog</a>
         </nav>
     </header>
-
-    <!-- Contact Me Main Section -->
+    <!-- contact me -->
     <section class="shadow">
-        <h1>Contact Me</h1>
-              <article id="">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facere enim deserunt? Quis assumenda quia harum facilis labore adipisci? Unde id dolorem, ducimus explicabo maxime eos expedita aspernatur itaque earum.</p>  
-              </article>
-      </section>
+        <article>
+            <h1>Contact Me</h1>
+                  <p>I would love to hear from you. Please submit your message below or reach out directly via Linked In.</p>  
+                <form action="mailto:ktomaszczyk@hotmail.com" method="post" enctype="text/plain">
+                    <label>Your Name:</label>
+                    <input type="text" name="yourName"><br>
+                    <label>Your Email:</label>
+                    <input type="email" name="yourEmail"><br />
+                    <label>Your Message:</label><br />
+                    <textarea name="yourMessage" rows=10 cols="30"></textarea><br />
+                    <input class="btn" type="submit" name="" />
+                    <input class="btn" type="reset" name="" />
+            <p><a class="professional"href="https://www.linkedin.com/in/katrina-tomaszczyk-8bb67235/">
+            <i class="fa-brands fa-linkedin"></i>Linked In</a></p>
+        <p><a href="resume.html">Katrina Tomaszczyk - Resume</a></p>
+        </article>
+    </section>
 
-      <a href="resume.html">Resume</a>
-
+     
+    </main>
     <footer><p>&copy; 2022 Katrina Tomaszczyk</p></footer>
-    
 </body>
 </html>
