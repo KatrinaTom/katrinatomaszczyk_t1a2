@@ -88,13 +88,13 @@ Blog is the one that redirects to a different page, this is so this location can
 ## Screenshots
 
 ### Home Page
-![Home page Screenshot](images/home.png)
+![Home page Screenshot](home.png)
 
 ### Contact Page
-![contact page Screenshot](images/contact.png)
+![contact page Screenshot](contact.png)
 
 ### Blog Page
-![blog page Screenshot](images/blog.png)
+![blog page Screenshot](blog.png)
 
 ---
 
