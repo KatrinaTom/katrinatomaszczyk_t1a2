@@ -14,7 +14,7 @@
 ---
 
 ### High Level Requirements
-Design/Develop/ Deploy a website
+Design/ Develop/ Deploy a website
 * HTML/ CSS Portfolio 
 * Powerpoint Presentation
 * Video dicussing the Portfolio
@@ -48,7 +48,7 @@ Target Audience is for a potential employer who has the following expectations:
 * Information on the individual 
 * Showcases work through Git Hub
 * Present previous experience through LinkedIn and Resume 
-* Website Designed/Developed/Released
+* Website Designed/ Developed/ Deployed
 
 ## Tech Stack
 * HTML
