@@ -8,7 +8,7 @@
 
 ## Purpose
 
-* Create a portolio website - presents you as a developer and IT Professional.
+* Create a portolio website - presents yourself as a developer and IT Professional.
 * Online portfolio that provided information about you, your skills, interests, professional knowledge and a showcase of your work.
 
 ---
