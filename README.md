@@ -2,7 +2,7 @@
 
 [katrinatomaszczyk_t1a2](https://github.com/KatrinaTom/katrinatomaszczyk_t1a2)
 
-[Netlify - Deloyed Portfolio](https://profound-axolotl-8ce71e.netlify.app/index.html)
+[Netlify - Deployed Portfolio](https://profound-axolotl-8ce71e.netlify.app/index.html)
 
 [Vimeo - Online Presentation](https://vimeo.com/742081295/b15d0b5c3a)
 
